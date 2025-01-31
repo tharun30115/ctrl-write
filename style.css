@@ -4,11 +4,9 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-
   body {
     background-color: rgba(106, 83, 235, 0.95);
   }
-
   h2{
     display: flex;
     justify-content: center;
