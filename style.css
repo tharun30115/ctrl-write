@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
   body {
     background-color: rgba(106, 83, 235, 0.95);
   }
+
   h2{
     display: flex;
     justify-content: center;
@@ -15,6 +17,7 @@
     margin-top: 30px;
     font-weight: 600;
   }
+
   .container {
     background-color: #ffffff;
     width: 90vmin;
@@ -26,12 +29,14 @@
     border-radius: 10px;
     box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
   }
+
   .options {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 15px;
   }
+
   button {
     height: 28px;
     width: 28px;
@@ -43,20 +48,24 @@
     outline: none;
     color: #020929;
   }
+
   select {
     padding: 7px;
     border: 1px solid #020929;
     border-radius: 3px;
   }
+
   .options label,
   .options select {
     font-family: "Poppins", sans-serif;
   }
+
   .input-wrapper {
     display: flex;
     align-items: center;
     gap: 8px;
   }
+
   input[type="color"] {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -67,20 +76,24 @@
     border: none;
     cursor: pointer;
   }
+
   input[type="color"]::-webkit-color-swatch {
     border-radius: 15px;
     box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #020929;
   }
+
   input[type="color"]::-moz-color-swatch {
     border-radius: 15px;
     box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #020929;
   }
+
   #text-input {
     margin-top: 10px;
     border: 1px solid #dddddd;
     padding: 20px;
     height: 50vh;
   }
+  
   .active {
     background-color: #e0e9ff;
   }
